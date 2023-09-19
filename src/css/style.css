@@ -55,3 +55,47 @@ h3 {
     text-align: left;
 }
 
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+#h3text {
+	
+	/* Text Background Effect */
+	
+	background: url('http://doodling.surge.sh/assets/images/bg-1.jpg');
+	-webkit-background-clip: text;
+	color: transparent;
+
+	/* Other */
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	animation: slice 3s, dynamic 7s infinite alternate linear;
+	white-space: nowrap;
+	
+}
+
+
+
+@keyframes slice {
+	
+	0% {	line-height: 0%; }
+	
+	100% {	line-height: 100%; }
+	
+}
+
+
+@keyframes dynamic {
+	
+	0% {	background-position: 0% }
+	
+	100% {	background-position: 100%; }
+	
+}
+
